@@ -10,6 +10,12 @@
     }
 
 
+    .preloader video
+    {
+        width: 400px;
+    }
+
+
 
     /*------------
         Header
@@ -44,6 +50,8 @@
     -------------------*/
     .first_section
     {
+        height: 964px;
+        min-height: 0;
         padding-top: 177px;
         padding-bottom: 20px;
     }

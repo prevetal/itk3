@@ -10,6 +10,12 @@
     }
 
 
+    .preloader video
+    {
+        width: 260px;
+    }
+
+
 
     /*--------------
         Fancybox
@@ -106,7 +112,18 @@
     -------------------*/
     .first_section
     {
+        height: 912px;
         padding-top: 154px;
+    }
+
+
+    .first_section .img,
+    .first_section video
+    {
+        height: 700px;
+
+        -webkit-mask: url('../images/mask_mob_first_section.svg') 0 100%/100% 100% no-repeat;
+                mask: url('../images/mask_mob_first_section.svg') 0 100%/100% 100% no-repeat;
     }
 
 
@@ -129,6 +146,8 @@
 
         padding-top: 20px;
         padding-left: 20px;
+
+        letter-spacing: 1.034px;
 
         border-radius: 0;
 
