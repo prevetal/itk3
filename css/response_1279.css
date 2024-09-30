@@ -1,0 +1,111 @@
+@media print,
+(max-width: 1279px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    html.custom_scroll ::-webkit-scrollbar
+    {
+        width: 5px;
+        height: 5px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        font-size: 14px;
+        line-height: 19px;
+
+        height: 92px;
+
+        gap: 18px;
+    }
+
+
+    header .logo img
+    {
+        width: 117px;
+    }
+
+
+    header .menu a
+    {
+        font-size: 16px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 143px;
+    }
+
+
+
+    /*----------------
+        Directions
+    ----------------*/
+    .directions .direction .data
+    {
+        width: 400px;
+    }
+
+
+    .directions .direction .image
+    {
+        width: calc(100% - 286px);
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles .all_link a
+    {
+        gap: 8px;
+    }
+
+
+    .articles .all_link .icon
+    {
+        order: 2;
+
+        width: auto;
+        height: auto;
+
+        color: #018d38;
+        border-radius: 0;
+        background: none;
+    }
+
+
+    .articles .all_link .icon svg
+    {
+        width: 24px;
+        height: 24px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info .data
+    {
+        width: 420px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% - 468px);
+    }
+}

@@ -1,0 +1,129 @@
+@media print,
+(max-width: 1899px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .logo
+    {
+        height: 100px;
+    }
+
+
+    header .menu
+    {
+        gap: 40px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-top: 151px;
+    }
+
+
+
+    /*----------------
+        Directions
+    ----------------*/
+    .directions .direction
+    {
+        padding-top: 268px;
+        padding-bottom: 60px;
+    }
+
+
+    .directions .direction .data
+    {
+        width: 500px;
+    }
+
+
+    .directions .direction .image
+    {
+        width: calc(100% - 386px);
+        padding: 25px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        padding: 80px 0 60px;
+    }
+
+
+    .articles .block_title
+    {
+        margin-bottom: 54px;
+    }
+
+
+    .articles .row
+    {
+        margin-bottom: -40px;
+        margin-left: -40px;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(25% - 40px);
+        margin-bottom: 40px;
+        margin-left: 40px;
+    }
+
+
+    .articles .all_link
+    {
+        margin-top: 54px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding: 80px 0;
+    }
+
+
+    .contacts_info .block_title
+    {
+        margin-bottom: 54px;
+    }
+
+
+    .contacts_info .item + .item
+    {
+        margin-top: 48px;
+    }
+
+
+    .contacts_info .data .btn
+    {
+        margin-top: 54px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% - 544px);
+        min-height: 528px;
+    }
+}

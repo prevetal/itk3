@@ -1,0 +1,142 @@
+@media print,
+(max-width: 1439px)
+{
+    /*-------------------
+        Global styles
+    -------------------*/
+    .cont
+    {
+        padding: 0 24px;
+    }
+
+
+
+    /*------------
+        Header
+    ------------*/
+    header .menu
+    {
+        gap: 24px;
+    }
+
+
+
+    /*-------------------
+        First section
+    -------------------*/
+    .first_section
+    {
+        padding-bottom: 24px;
+    }
+
+
+
+    /*----------------
+        Directions
+    ----------------*/
+    .directions .block_title_wrap
+    {
+        padding-top: 64px;
+        padding-left: 24px;
+    }
+
+
+    .directions .block_title
+    {
+        top: 64px;
+    }
+
+
+    .directions .direction
+    {
+        padding-top: 230px;
+        padding-bottom: 24px;
+    }
+
+
+    .directions .direction .image
+    {
+        padding: 24px;
+    }
+
+
+
+    /*--------------
+        Articles
+    --------------*/
+    .articles
+    {
+        padding: 60px 0;
+    }
+
+
+    .articles .row
+    {
+        margin-bottom: -24px;
+        margin-left: -24px;
+    }
+
+
+    .articles .row > *
+    {
+        width: calc(25% - 24px);
+        margin-bottom: 24px;
+        margin-left: 24px;
+    }
+
+
+    .articles .all_link
+    {
+        margin-top: 43px;
+    }
+
+
+
+    /*-------------------
+        Contacts info
+    -------------------*/
+    .contacts_info
+    {
+        padding: 60px 0;
+    }
+
+
+    .contacts_info .item + .item
+    {
+        margin-top: 40px;
+    }
+
+
+    .contacts_info .map
+    {
+        width: calc(100% - 500px);
+        min-height: 480px;
+    }
+
+
+
+    /*--------------
+        ButtonUp
+    --------------*/
+    .buttonUp
+    {
+        right: 24px;
+        bottom: -24px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        margin-top: 60px;
+    }
+
+
+    footer .line
+    {
+        margin-bottom: 60px;
+    }
+}
