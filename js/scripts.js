@@ -4,6 +4,13 @@ BODY = document.getElementsByTagName('body')[0]
 
 
 document.addEventListener('DOMContentLoaded', function () {
+	// Preloader
+	setTimeout(() => {
+		$('.preloader').fadeOut(200)
+		$('body').removeClass('lock')
+	}, 3100)
+
+
 	// 'Up' button
 	$('.buttonUp .btn').click((e) => {
 		e.preventDefault()
