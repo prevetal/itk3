@@ -54,13 +54,13 @@
     ----------------*/
     .directions .direction .data
     {
-        width: 400px;
+        width: 380px;
     }
 
 
     .directions .direction .image
     {
-        width: calc(100% - 286px);
+        width: calc(100% - 400px);
     }
 
 

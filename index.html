@@ -64,9 +64,31 @@
 						</button>
 
 						<nav class="menu">
-							<div><a href="/">Бизнес-направления</a></div>
+							<div>
+								<button class="btn scroll_btn" data-anchor="directions">Бизнес-направления</button>
 
-							<div><a href="/">Контакты</a></div>
+								<div class="sub_menu">
+									<div>
+										<button class="btn scroll_btn" data-anchor="direction1">Контрольно–измерительное оборудование</button>
+									</div>
+
+									<div>
+										<button class="btn scroll_btn" data-anchor="direction2">Испытательное оборудование</button>
+									</div>
+
+									<div>
+										<button class="btn scroll_btn" data-anchor="direction3">Металлообработка</button>
+									</div>
+
+									<div>
+										<button class="btn scroll_btn" data-anchor="direction4">ИТ – оборудование</button>
+									</div>
+								</div>
+							</div>
+
+							<div>
+								<button class="btn scroll_btn" data-anchor="contacts">Контакты</button>
+							</div>
 						</nav>
 
 						<div class="line"></div>
@@ -91,24 +113,32 @@
 
 					<div class="menu">
 						<div>
-							<a href="/" class="sub_link active">
+							<button class="btn sub_link active">
 								<span>Бизнес-направления</span>
 								<svg class="icon"><use xlink:href="images/sprite.svg#ic_arr_ver"></use></svg>
-							</a>
+							</button>
 
 							<div class="sub_menu" style="display: block;">
-								<div><a href="/">Контрольно–измерительное оборудование</a></div>
+								<div>
+									<button class="btn scroll_btn" data-anchor="direction1">Контрольно–измерительное оборудование</button>
+								</div>
 
-								<div><a href="/">Испытательное оборудование</a></div>
+								<div>
+									<button class="btn scroll_btn" data-anchor="direction2">Испытательное оборудование</button>
+								</div>
 
-								<div><a href="/">Металлообработка</a></div>
+								<div>
+									<button class="btn scroll_btn" data-anchor="direction3">Металлообработка</button>
+								</div>
 
-								<div><a href="/">ИТ – оборудование</a></div>
+								<div>
+									<button class="btn scroll_btn" data-anchor="direction4">ИТ – оборудование</button>
+								</div>
 							</div>
 						</div>
 
 						<div>
-							<a href="/">Контакты</a>
+							<button class="btn scroll_btn" data-anchor="contacts">Контакты</button>
 						</div>
 					</div>
 				</section>
@@ -135,7 +165,7 @@
 				</section>
 
 
-				<section class="directions">
+				<section class="directions" id="directions">
 					<section class="block_title_wrap">
 						<div class="block_title">
 							<span>Бизнес - направления</span>
@@ -144,7 +174,7 @@
 						</div>
 					</section>
 
-					<section class="direction direction1">
+					<section class="direction direction1" id="direction1">
 						<div class="cont row">
 							<div class="data">
 								<div class="title">Контрольно – измерительное оборудование</div>
@@ -167,7 +197,7 @@
 						</div>
 					</section>
 
-					<section class="direction direction2">
+					<section class="direction direction2" id="direction2">
 						<div class="cont row">
 							<div class="data">
 								<div class="title">Испытательное<br> оборудование</div>
@@ -190,7 +220,7 @@
 						</div>
 					</section>
 
-					<section class="direction direction3">
+					<section class="direction direction3" id="direction3">
 						<div class="cont row">
 							<div class="data">
 								<div class="title">Металлообработка</div>
@@ -213,7 +243,7 @@
 						</div>
 					</section>
 
-					<section class="direction direction4">
+					<section class="direction direction4" id="direction4">
 						<div class="cont row">
 							<div class="data">
 								<div class="title">ИТ – оборудование</div>
@@ -349,7 +379,7 @@
 				</section>
 
 
-				<section class="contacts_info">
+				<section class="contacts_info" id="contacts">
 					<div class="cont row">
 						<div class="data">
 							<div class="block_title">Контакты</div>

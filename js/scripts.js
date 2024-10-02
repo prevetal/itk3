@@ -4,13 +4,6 @@ BODY = document.getElementsByTagName('body')[0]
 
 
 document.addEventListener('DOMContentLoaded', function () {
-	// Preloader
-	setTimeout(() => {
-		$('.preloader').fadeOut(200)
-		$('body').removeClass('lock')
-	}, 3100)
-
-
 	// 'Up' button
 	$('.buttonUp .btn').click((e) => {
 		e.preventDefault()
@@ -28,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
 		$('.mob_menu').toggleClass('show')
 	})
 
-	$('.mob_menu .menu a.sub_link').click(function(e) {
+	$('.mob_menu .menu .btn.sub_link').click(function(e) {
 		e.preventDefault()
 
 		$(this).toggleClass('active').next().slideToggle(300)
@@ -89,6 +82,39 @@ document.addEventListener('DOMContentLoaded', function () {
 	})
 
 	directions.forEach(element => observer.observe(element))
+
+
+	// Smooth scrolling to anchor
+	const scrollBtns = document.querySelectorAll('.scroll_btn')
+
+	if (scrollBtns) {
+		scrollBtns.forEach(element => {
+			element.addEventListener('click', e => {
+				e.preventDefault()
+
+				let anchor = element.getAttribute('data-anchor')
+
+				$('header .mob_menu_btn').removeClass('active')
+				$('body').removeClass('lock')
+				$('.mob_menu').removeClass('show')
+
+				document.getElementById(anchor).scrollIntoView({
+					behavior: 'smooth',
+					block: 'start'
+				}, 1000)
+			})
+		})
+	}
+})
+
+
+
+window.addEventListener('load', function () {
+	// Preloader
+	setTimeout(() => {
+		$('.preloader').addClass('hide')
+		$('body').removeClass('lock')
+	}, 500)
 })
 
 

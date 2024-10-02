@@ -4,6 +4,12 @@
     /*-------------------
         Global styles
     -------------------*/
+    *
+    {
+        scroll-margin-top: 24px;
+    }
+
+
     .cont
     {
         padding: 0 20px;
@@ -12,7 +18,7 @@
 
     .preloader video
     {
-        width: 400px;
+        width: 320px;
     }
 
 
@@ -103,6 +109,7 @@
         visibility: visible;
 
         width: 100%;
+        min-height: 0;
         padding-right: 88px;
         padding-bottom: 0;
 
